@@ -1,0 +1,36 @@
+  <html>
+   <body>
+    <table border="1">
+     <thead>
+        <tr>
+          <th>Time</th>
+          <th>Min</th>
+          <th>AVG</th>
+          <th>Max</th>
+        </tr>
+     </thead>
+        <tbody>
+         <tr>
+           <td>Min</td>
+           <td>%d</td>
+           <td>%d</td>
+           <td>%d</td>
+         </tr>
+         <tr>
+           <td>Hour</td>
+           <td>%d</td>
+           <td>%d</td>
+           <td>%d</td>
+        </tr>
+        <tr>
+          <td>Day</td>
+          <td>%d</td>
+          <td>%d</td>
+          <td>%d</td>
+        </tr>
+        </tbody> 
+      </table>
+      <br>
+      <a href="index.html">Home</a>
+    </body>
+  </html>

@@ -3,10 +3,10 @@ import __init__
 import sys
 from core import *
 from optparse import OptionParser
-from report import HtmlReport
+from core.report import HtmlReport
 
 
-parser = OptionParser(usage="run.sh [options]", version="0.0.0.1")
+parser = OptionParser(usage="run.sh [options]", version="0.0.0.2")
 
 parser.add_option("-i", "--interval", dest="interval", \
               help="Set interval between queries", \
@@ -32,7 +32,7 @@ if len(sys.argv) > 1:
   else:
     if options[0].report:
       _report = HtmlReport()
-      _report.generate_queries()
+      _report.generate()
     else:
       mysqllogger.Monitor().start()
 else:

@@ -1,0 +1,15 @@
+<html>
+  <body>
+  <br>
+  <a href="statistics.html"> Statistics</a>
+  <br>
+  <br>
+    <table border='1'>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Hits</th>
+          <th>SQL</th>
+        </tr>
+      </thead>
+    
