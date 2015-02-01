@@ -1,0 +1,9 @@
+data.db
+*.pyc
+database.size
+*.arff
+*.log
+*.gdf
+sql/
+register_database_size.sh
+html/
